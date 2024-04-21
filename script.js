@@ -76,39 +76,46 @@ function startAdvinhador(){
         velocidade = true
     }
 
-
-
-    /*Começo dessa desgraçada de código*/
     if(pelos == true && mamifero == true && agua == false && asas == false && carnivoro == true && noturno == true && bando == false && velocidade == true){
         alert("O ANIMAL É UM LEOPARDO!!!")
     }
+
     else if(pelos == false && mamifero == false && agua == false && asas == true && carnivoro == false && noturno == false && bando == false && velocidade == false){
         alert("O ANIMAL É UM TUCANO!!!")
     }
+
     else if(pelos == true && mamifero == true && agua == false && asas == false && carnivoro == false && noturno == true && bando == false && velocidade == false){
         alert("O ANIMAL É UM COALA!!!")
     }
+
     else if(pelos == true && mamifero == true && agua == false && asas == false && carnivoro == true && noturno == true && bando == true && velocidade == true){
         alert("O ANIMAL É UM LOBO!!!")
     }
-    else if(pelos == true && mamifero == false && agua == false && asas == true && carnivoro == true && noturno == false && bando == false && velocidade == true){
+
+    else if(pelos == false && mamifero == false && agua == false && asas == true && carnivoro == true && noturno == false && bando == false && velocidade == true){
         alert("O ANIMAL É UM ÁGUIA!!!")
     }
+
     else if(pelos == false && mamifero == true && agua == true && asas == false && carnivoro == false && noturno == true && bando == true && velocidade == true){
         alert("O ANIMAL É UM HIPOPÓTAMO!!!")
     }
+
     else if(pelos == true && mamifero == true && agua == true && asas == false && carnivoro == true  && noturno == true && bando == true && velocidade == false){
         alert("O ANIMAL É UM FOCA!!!")
     }
+
     else if(pelos == false && mamifero == false && agua == false && asas == false && carnivoro == true && noturno == true && bando == false && velocidade == false){
         alert("O ANIMAL É UM COBRA-CORAL!!!")
     }
+
     else if(pelos == true && mamifero == true && agua == false && asas == false && carnivoro == false && noturno == false && bando == true && velocidade == false){
         alert("O ANIMAL É UM SURICATO!!!")
     }
+
     else if(pelos == true && mamifero == true && agua == false && asas == false && carnivoro == false && noturno == false && bando == true && velocidade == true){
         alert("O ANIMAL É UM GIRAFA!!!")
     }
+
 
     else{
         alert("Esse animal não está na LISTADO !!!")
